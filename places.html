@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My favorite places</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <style>
+      .card {
+        border-radius: 5%;
+        text-align: center;
+        padding: 1em;
+        height: 500px;
+      }
+      .card:hover {
+        background: rgba(0, 0, 0, 0.1);
+      }
+      .card img {
+        border-radius: 5%;
+        margin: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand p-0" href="/"
+          ><img src="image\logoLH.png" alt="Logo" width="45px;"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="/">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="places.html">Favorite places</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="container my-5">
+      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-5">
+        <div class="col">
+          <div class="card">
+            <img
+              src="https://i.picsum.photos/id/18/2500/1667.jpg?hmac=JR0Z_jRs9rssQHZJ4b7xKF82kOj8-4Ackq75D_9Wmz8"
+              class="card-img-top my-3"
+              alt="My image"
+            />
+            <h5 class="card-title">Card title</h5>
+            <div class="card-body overflow-auto">
+              <p class="card-text">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Repellat nobis corrupti neque possimus iusto unde, explicabo,
+                ipsum ab officiis harum iste atque voluptatum quod. Vitae veniam
+                magni minima, pariatur veritatis vel sapiente nihil quisquam
+                quod enim harum dolorem consequuntur fugiat?
+              </p>
+            </div>
+            <a
+              href="https://i.picsum.photos/id/18/2500/1667.jpg?hmac=JR0Z_jRs9rssQHZJ4b7xKF82kOj8-4Ackq75D_9Wmz8"
+              target="_blank"
+              class="btn btn-primary"
+              >Large photo</a
+            >
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img
+              src="https://i.picsum.photos/id/28/4928/3264.jpg?hmac=GnYF-RnBUg44PFfU5pcw_Qs0ReOyStdnZ8MtQWJqTfA"
+              class="card-img-top my-3"
+              alt="My image"
+            />
+            <h5 class="card-title">Card title</h5>
+            <div class="card-body overflow-auto">
+              <p class="card-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Necessitatibus quod laborum nesciunt recusandae vel. Odit
+                incidunt iste minima reiciendis
+              </p>
+            </div>
+            <a
+              href="https://i.picsum.photos/id/28/4928/3264.jpg?hmac=GnYF-RnBUg44PFfU5pcw_Qs0ReOyStdnZ8MtQWJqTfA"
+              target="_blank"
+              class="btn btn-primary"
+              >Large photo</a
+            >
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img
+              src="https://i.picsum.photos/id/15/2500/1667.jpg?hmac=Lv03D1Y3AsZ9L2tMMC1KQZekBVaQSDc1waqJ54IHvo4"
+              class="card-img-top my-3"
+              alt="My image"
+            />
+            <h5 class="card-title">Card title</h5>
+            <div class="card-body overflow-auto">
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+            </div>
+            <a
+              href="https://i.picsum.photos/id/15/2500/1667.jpg?hmac=Lv03D1Y3AsZ9L2tMMC1KQZekBVaQSDc1waqJ54IHvo4"
+              target="_blank"
+              class="btn btn-primary"
+              >Large photo</a
+            >
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img
+              src="https://i.picsum.photos/id/128/3823/2549.jpg?hmac=VbPyA2vESva2YdoXqll9REBcbQIskgv_c-D60C1s0xc"
+              class="card-img-top my-3"
+              alt="My image"
+            />
+            <h5 class="card-title">Card title</h5>
+            <div class="card-body overflow-auto">
+              <p class="card-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Reprehenderit quam veritatis, nam inventore beatae harum
+                corrupti dicta maiores dolorum eum numquam, suscipit possimus
+                odit, voluptas laborum porro illum totam voluptatem?
+              </p>
+            </div>
+            <a
+              href="https://i.picsum.photos/id/128/3823/2549.jpg?hmac=VbPyA2vESva2YdoXqll9REBcbQIskgv_c-D60C1s0xc"
+              class="btn btn-primary"
+              target="_blank"
+              >Large photo</a
+            >
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img
+              src="https://i.picsum.photos/id/185/3995/2662.jpg?hmac=gXqQYKLwRcZNsxrWGW6YosAXEIU6-D7UbytF_ApGmDs"
+              class="card-img-top my-3"
+              alt="My image"
+            />
+            <h5 class="card-title">Card title</h5>
+            <div class="card-body overflow-auto">
+              <p class="card-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Expedita neque alias sit natus velit ut. Illo aut temporibus
+                delectus ad consequuntur sunt voluptatem assumenda dicta?
+              </p>
+            </div>
+            <a
+              href="https://i.picsum.photos/id/185/3995/2662.jpg?hmac=gXqQYKLwRcZNsxrWGW6YosAXEIU6-D7UbytF_ApGmDs"
+              target="_blank"
+              class="btn btn-primary"
+              >Large photo</a
+            >
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img
+              src="https://i.picsum.photos/id/217/4000/2590.jpg?hmac=FqwQ5H36hiVE2F-FZhkN9kF6TMvUksIb7HGzMn0JRq4"
+              class="card-img-top my-3"
+              alt="My image"
+            />
+            <h5 class="card-title">Card title</h5>
+
+            <div class="card-body overflow-auto">
+              <p class="card-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis
+                vitae maiores deserunt velit aliquid doloribus voluptatem rerum
+                quod cupiditate repellendus.
+              </p>
+            </div>
+            <a
+              href="https://i.picsum.photos/id/217/4000/2590.jpg?hmac=FqwQ5H36hiVE2F-FZhkN9kF6TMvUksIb7HGzMn0JRq4"
+              terget="_blank"
+              class="btn btn-primary"
+              >Large photo</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="bg-dark text-center text-secondary">
+      <div class="container">
+        <div class="text-center p-3" style="background-color: rgb(33, 37, 41)">
+          © 2023 Copyright:
+          <a class="navbar-brand p-0" href="/"
+            ><img src="image\logoLH.png" alt="Logo" width="45px;"
+          /></a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
